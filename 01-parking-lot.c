@@ -52,6 +52,7 @@ int rejectedCars = 0;
 // TODO: Add mutex declaration here
 // API: HANDLE CreateMutex(LPSECURITY_ATTRIBUTES, BOOL bInitialOwner, LPCTSTR lpName);
 HANDLE hMutex = NULL;
+printf("Hello");
 
 
 DWORD WINAPI CarThread(LPVOID lpParam) {
